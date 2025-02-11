@@ -14,6 +14,7 @@ sonarqube {
         property "sonar.host.url", "http://localhost:9000"
         property "sonar.login", "10ee904137ca6477c28157ae8ed4e83e4fc5eb18"
     }
+}
 
 sourceSets {
     defaultTest {
