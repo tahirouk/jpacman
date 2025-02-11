@@ -10,7 +10,7 @@ plugins {
 
 sonar {
     properties {
-        property "sonar.projectKey", "jpacman_log530_gr12"
+        property "sonar.projectKey", "jpacman"
     }
 }
 
