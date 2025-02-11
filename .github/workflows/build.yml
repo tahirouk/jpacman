@@ -35,4 +35,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: ./gradlew build sonar --info     # test with intellij + test http://192.168.220.132:9000
+        run: ./gradlew build sonar --info     # test with intellij + plugging test http://192.168.220.132:9000
